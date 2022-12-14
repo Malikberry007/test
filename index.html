@@ -9,7 +9,7 @@ if (this.readyState == 4 && this.status == 200) {
 document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open("GET", "https://shop.lululemon.com/gsr/common/commerceData.jsp", true);
+xhttp.open("GET", "https://shop.lululemon.com/gsr/common/dataLayerJson.jsp?pagetype=shopLanding", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
