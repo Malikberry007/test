@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>
+      Internal IP: <?php echo $_SERVER['SERVER_ADDR']; ?>
+    </title>
+  </head>
+  <body>
+    Nothing to see here.
+  </body>
+</html>
